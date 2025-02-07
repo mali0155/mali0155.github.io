@@ -1,0 +1,72 @@
+
+
+body{
+    background-color: rgb(46, 91, 255);
+    font font-family: arial, sans-sarif;
+} 
+
+
+h1{
+    color: rgb(89, 205, 89);
+    text-align: center;
+}
+
+p{
+font-size: 20px;
+}
+
+h1,h2{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.btn{
+background-color: chocolate;
+color: rgb(255, 255, 255);
+padding:  16px 20px;
+border-radius: 5px;
+cursor: pointer;
+border:none;
+box-shadow: 1px 1px 5px 6px #add;
+
+}
+.btn:hover{
+    background-color: black;
+    color: blue;
+}
+#intropara{
+    font-style: italic;
+}
+
+article h2{
+    color: rgb(188, 31, 120);
+}
+
+h2{
+    color: orange;
+}
+
+ul li:nth-child(2n+1){
+    color: blanchedalmond;
+}
+
+.secondClass{
+    border: 2px solid #fff;
+}
+    form{
+    background-color: rgb(119, 172, 216);
+    max-width: 500px;
+/*margin vs padding */
+padding: 20px;
+margin: 20px auto;
+border-radius: 20px;
+}
+
+input,textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
