@@ -1,0 +1,48 @@
+/* Change font family and increase font size*/
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+}
+/* Add background color to Header and footer*/
+header,footer{
+    background-color: rgb(77, 147, 147);
+    color: chocolate;
+    padding: 10px;
+    text-align: center;
+}
+/* Changing text color of main heading with class*/
+.site-title{
+    color: rgb(200, 121, 24);
+    font-weight: bold;
+}
+/* Add box shadow to the image*/
+img{
+    box-shadow: 0px 0px 2px 1px color(srgb red green blue);
+}
+/* Replacing bullets with square*/
+.hobby{
+    list-style-type: square;
+}
+/* Add background to list items*/
+.hobby :nth-last-child(even){
+    background-color: greenyellow;
+    padding: 5px;
+}
+/* Style the navigation*/
+ul{
+    list-style: none;
+    padding: 50px;
+}
+/* Remove underline from links and adding background*/
+a{
+    text-decoration: double;
+    background-color: darkorchid;
+    color: blue;
+    padding: 3px 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    display: list-item;
+}
+#text-color{
+    color: mediumspringgreen;
+}
