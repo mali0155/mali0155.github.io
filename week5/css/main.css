@@ -29,9 +29,13 @@ padding:  16px 20px;
 border-radius: 5px;
 cursor: pointer;
 border:none;
-box-shadow: 1px 1px 5px 6px #add;
 
 }
+
+img{
+    box-shadow: 0px 0px 2px 1px;
+}
+
 .btn:hover{
     background-color: black;
     color: blue;
