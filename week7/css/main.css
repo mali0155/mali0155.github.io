@@ -1,0 +1,30 @@
+html{
+    box-sizing: border-box;
+
+}
+*:after{
+    box-sizing: inherit;
+}
+
+
+.box{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(8, 126, 142);
+    border: 5px solid rgb(247, 11, 11);
+    padding: 10px;
+    margin: 10px auto;
+   /* box-sizing: border-box; */
+}
+li{
+    color: aqua;
+}
+p{
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+}
+img{
+    float: right;
+}

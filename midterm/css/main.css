@@ -1,0 +1,157 @@
+/* Apply font to body and set background color*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 229, 229);
+    margin: 0;
+    padding: 0;
+}
+/*center-align the header and adjust its positioning*/
+header{
+    position: relative;
+    text-align: center;
+}
+
+/* Set the header image to span the full width*/
+header img{
+    width: 100%;
+}
+
+/*position header title over image*/
+header h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    color: rgb(209, 209, 218);
+}
+
+/* Style naavigation using flexbox*/
+ nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-size: 27px;
+ }
+ /* Add spacing and separator between navigation items*/
+ nav ul li{
+    padding: 3px 55px;
+    position: relative;
+ }
+ /* Add right border to navigator items except list one*/
+ nav ul li :not(:last-child) {
+    border-right: 2px solid black;
+ }
+ /*Float images to left and add spacing*/
+ .floating-image{
+    float: left;
+    margin-right: 3px;
+    width: 200px;
+    padding: 8px;
+ }
+ /*Align the footer content to the right*/
+ .footer-right{
+    text-align: right;
+    margin: 20px;
+    padding: 10px;
+ }
+ /*Style the facts section with padding and rounded corners*/
+ .facts-of-fish{
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: disc;
+ }
+ /*Add padding to unordered list inside facts section*/
+ .facts-of-fish ul{
+    padding: 15px;
+ }
+ /*Adjust spacing for form label*/
+ .forms label{
+    padding: 3px;
+    text-align: left;
+ }
+ /*align form, button and outline to left*/
+ .form-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px;
+ }
+ /*Style input fields to stretch left*/
+ input[type="text"]
+ input[type="email"]
+ textarea{
+width: 100%;
+padding: 8px;
+margin: 5px 0;
+border: 1px solid #f7f4f4;
+border-radius: 4px;
+box-sizing: border-box;
+ }
+ /*Adjust message box size*/
+ #message{
+height: 100px;
+resize: horizontal;
+ }
+ /* Remove underline from links and set black color*/
+ a{
+    text-decoration: none;
+    color: black;
+ }
+ /*Main container with vertical alignment*/
+ .wrapper{
+    background-color: #c6dedb;
+    width: 80%;
+    max-width: 700px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+ }
+ /*Add border around form*/
+ .outline{
+    border: 2px solid;
+    padding: 15px;
+    width: 100px;
+    text-align: left;
+ }
+ /*Align form labels and input fields*/
+ form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid black;
+ }
+ /*Align the submit button to left*/
+ .button{
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+ }
+ /*change button color*/
+ .button:hover{
+    background: rgb(rgb(80, 110, 116), green, blue);
+ }
+ /* Set margins for the contact section*/
+ #contact{
+    margin: 10px;
+ }
+ /*Set margin for article paragraphs*/
+ article p {
+    margin: 10px;
+ }
+ .wrapper{
+    margin: 700px;
+    text-decoration: none;
+ }
+ h3{
+   margin-top: 85px;
+ }
