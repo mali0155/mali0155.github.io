@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(173, 108, 108);
+}
+h1{
+    font-size: 3rem;
+}
+.one{
+    width:100px;
+    height: 100ox;
+    background-color: azure;
+    border: 5px solid rgb(29, 205, 129);
+}
+/* Task : change the background color of the div after 650px device size and add border radius*/
+body{
+background-color: cyan;
+}
+h1{
+    color: aquamarine;
+}
+
+@media  screen and (min-width:650px)  { 
+    
+    /*these styles will be applied to 650px and over*/
+    body{
+        background-color: rgb(14, 0, 104);
+    }
+    h1{
+        color: aqua;
+    }
+}
+/*task:after size 900px make div disappear*/
+
+@media screen and ( max-width: 900px){
+    body{
+        background-color: rgb(32, 165, 165);
+    }
+}
+
+/*change the font size of h1 to 4rem*/
+@media screen and ( min-width:700px) and (max-width:800px){
+    h1{
+        font-size: 4rem;
+    }
+}
+.one{
+    display: none;
+}
